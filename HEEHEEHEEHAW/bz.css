@@ -5,7 +5,7 @@ body{
 background-color: black;
 }
 .choucroute{
-    display: block;
+    display: flex;
     color: whitesmoke;
     justify-content: centre;
     margin: 0 auto;
@@ -17,4 +17,39 @@ background-color: black;
     color: whitesmoke;
     margin: 0 auto;
     width: 300px;
+}
+.menu {
+    display: flex;                
+    padding:0;                   
+    background-color: rgb(0, 0, 0);   
+    justify-content: space-around;
+}
+.menu li {
+    list-style-type: none ;      
+}
+.menu a {
+    display:block;                
+    min-width: 120px;            
+    
+    margin: 0.5rem;              
+    padding: 0.4rem 0;           
+    text-align: center;           
+    background-color: #000000;   
+    color: rgb(255, 255, 255);                 
+    text-decoration: none;        
+    border: 1px solid #fff;      
+    border-radius: 4px;           
+    
+    transition: all 1s ;          
+}
+.menu a.actif {    
+    background-color: #000 ; 
+    color: #ffffff ;
+    border-color: #ffffff ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
 }
