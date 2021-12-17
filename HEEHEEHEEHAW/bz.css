@@ -1,3 +1,6 @@
 #particle.js{
-    position: relative;
+    position: absolute;
+}
+body{
+background-color: black;
 }
