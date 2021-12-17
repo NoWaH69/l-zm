@@ -19,7 +19,7 @@ particlesJS("particles-js", {
         anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
       },
       line_linked: {
-        enable: true,
+        enable: false,
         distance: 150,
         color: "#ffffff",
         opacity: 0.4,
@@ -45,7 +45,7 @@ particlesJS("particles-js", {
       },
       modes: {
         grab: { distance: 200, line_linked: { opacity: 1 } },
-        bubble: { distance: 400, size: 10, duration: 2, opacity: 8, speed: 3 },
+        bubble: { distance: 400, size: 3, duration: 2, opacity: 8, speed: 3 },
         repulse: { distance: 350, duration: 0.4 },
         push: { particles_nb: 4 },
         remove: { particles_nb: 2 }
